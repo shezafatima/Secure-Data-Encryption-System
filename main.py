@@ -20,7 +20,8 @@ LOCKOUT_DURATION = 30      # seconds to lock out if threshold exceeded
 
 
 
-FERNET_KEY = os.getenv("FERNET_KEY").encode()
+# FERNET_KEY = os.getenv("FERNET_KEY").encode()
+FERNET_KEY = st.secrets["FERNET_KEY"].encode()
 cipher = Fernet(FERNET_KEY)
 
 
