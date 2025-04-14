@@ -5,9 +5,9 @@ import json
 import time
 import base64
 from cryptography.fernet import Fernet
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
-load_dotenv()
+# load_dotenv()
 # -------------------------------
 # Global Constants and File Paths
 # -------------------------------
